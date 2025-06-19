@@ -1,7 +1,7 @@
 # 💫 About Me:
 🔭 I’m currently working on open-source projects<br>🌱 I’m currently learning Swift, rust<br>💬 Ask me about javascript, CSS, C++, pyhton, React<br>⚡ Fun fact I'm an athlete too.
 
-![alt text](<Pasted image.png>)  ![alt text](<Pasted image (2).png>) ![alt text](<Pasted image (3).png>) ![alt text](<Pasted image (9).png>) ![alt text](<Pasted image (10).png>)
+![alt text](<Pasted image.png>)  ![alt text](<images/Pasted image (2).png>) ![alt text](<images/Pasted image (3).png>) ![alt text](<images/Pasted image (9).png>) ![alt text](<images/Pasted image (10).png>)
 
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.gg/2K9rVYDp) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:nakulverma.py@gmail.com) 
