@@ -25,6 +25,5 @@
 ---
 [![](https://visitcount.itsvg.in/api?id=nakul-py&icon=4&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
 ![alt text](<images/Pasted image (18).png>) ![alt text](<images/Pasted image (19).png>) ![alt text](<images/Pasted image (12).png>) ![alt text](<images/Pasted image (7).png>) ![alt text](<images/Pasted image (11).png>)
