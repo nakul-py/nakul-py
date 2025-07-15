@@ -1,0 +1,36 @@
+name: Generate Snake GIF
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake contribution graph
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: nakul-verma
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+
+      - name: Convert to GIF with custom color
+        run: |
+          mkdir -p dist
+          docker run --rm -v ${{ github.workspace }}/dist:/data ghcr.io/platane/snk:latest \
+            generate \
+            --user-name nakul-verma \
+            --output-format gif \
+            --color-snakes '#00ff99' \
+            --color-dots '#d9d9d9,#c3c3c3,#aaaaaa,#808080,#404040' \
+            --output-path /data/github-contribution-grid-snake.gif
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
