@@ -1,4 +1,5 @@
 ![rand](https://rand-xyz.now.sh/api/hello)
+
 # 💫 About Me
 
 🔭 I’m currently working on open-source projects<br>🌱 I’m currently learning Swift, rust<br>💬 Ask me about javascript, CSS, C++, pyhton, React<br>⚡ Fun fact I'm an athlete too.
@@ -23,6 +24,4 @@
 ![Joke](https://readme-jokes.vercel.app/api?theme=dark)
 
 ![rand](https://rand-xyz.now.sh/api/hello)
-
-![Snake animation](https://github.com/nakul-verma/nakul-verma/blob/output/github-contribution-grid-snake.gif)
 
